@@ -1,0 +1,240 @@
+::-webkit-scrollbar {
+    width: 7px;
+    height: 8px;
+    overflow: visible;
+}
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #69696d;
+}
+
+
+/* body{
+  scrollbar-color: #0a0082;
+} */
+
+
+/* MODALS */
+
+.card-header {
+    /* background: #0a0082; */
+    /* color: white; */
+}
+
+.badge,
+.modal-header {
+    /* background: #3f51b5; */
+}
+
+
+/* CONSULTATION EVENT BUTTONS  */
+
+.consultation-btns {
+    border-radius: 14rem;
+}
+
+
+/*  CHECKED TREATEMENT AND DIAGNOSIS SHOW WITH THIS STYLE */
+
+.badge-pill {
+    margin-bottom: 3px;
+}
+
+
+/* DIAG-COLLECTOR ON CONSULTATION PAGE */
+
+#diag-collector,
+#treat-collector {
+    margin-left: -2rem;
+}
+
+
+/*  LABELS ACTING AS PLACEHOLDERS STYLE */
+
+.md-form label {
+    font-size: .9rem;
+}
+
+
+/* DATATABLE  */
+
+table td,
+table th,
+label,
+.dataTables_info,
+.dataTables_paginate ul li,
+.dataTables_paginate,
+.paginate_button a {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#tblStore .btn.btn-sm {
+    margin: 0px;
+}
+
+.cat-select {
+    margin-top: -.4rem;
+}
+
+
+/* NURSES NOTE RENDERED TABLE  */
+
+#nnoteTblWrapper tr td p {
+    font-size: 14px;
+}
+
+
+/* CHANGE ALL ICONS MOUSE POINTER TO A HAND*/
+
+i {
+    cursor: pointer;
+}
+
+
+/* FIELDSET AND LEGENDS */
+
+.the-legend {
+    border-style: none;
+    border-width: 0;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    width: auto;
+    padding: 3px 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    background: #3f51b5;
+    color: white;
+}
+
+
+/* APPLICABLE TO READ MODAL ON CONSULTATION PAGE AND NURSES NOTE PAGE*/
+
+.the-legend1 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    width: auto;
+    padding: 3px 10px;
+}
+
+.the-fieldset {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    overflow: auto;
+}
+
+.badge {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, .16), 0 0px 0px 0 rgba(0, 0, 0, .12) !important;
+}
+
+
+/* TABS */
+
+.md-tabs {
+    position: relative;
+    z-index: 1;
+    padding: .7rem;
+    margin-right: 1rem;
+    margin-bottom: -20px;
+    margin-left: 1rem;
+    border: 0;
+    border-radius: .25rem;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    background: #0a0082;
+}
+
+.md-tabs .nav-link {
+    color: #fff;
+    border: 0;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.md-tabs li a:hover {
+    border: none;
+}
+
+.md-tabs .nav-link.active,
+.md-tabs .nav-item.open .nav-link {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.tab-content {
+    padding: 1rem;
+}
+
+
+/* SPECIFIC TO SELECTS THAT ARE FOUND ON THE LEFT NAV  */
+
+#reqMode,
+#timeSel {
+    margin-left: 50px;
+    width: 70%;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    color: white;
+    font-size: small;
+}
+
+#reqMode option,
+#timeSel option {
+    color: black;
+}
+
+
+/*  Material Checkboxes*/
+
+.custom-control.material-checkbox {
+    --color: #170ab1;
+}
+
+.custom-control.material-checkbox .material-control-input {
+    display: none;
+}
+
+.custom-control.material-checkbox .material-control-input:checked~.material-control-indicator {
+    border-color: var(--color);
+    -webkit-transform: rotateZ(45deg) translate(1px, -5px);
+    transform: rotateZ(45deg) translate(1px, -5px);
+    width: 10px;
+    border-top: 0px solid #fff;
+    border-left: 0px solid #fff;
+}
+
+.custom-control.material-checkbox .material-control-indicator {
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #aaa;
+    transition: 0.3s;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

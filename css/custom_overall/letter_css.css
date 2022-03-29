@@ -1,0 +1,14 @@
+.all_bold {
+    font-weight: bold;
+}
+
+@media print {
+    body {
+        font-family: georgia, times, serif !important;
+        font-size:13pt !important;
+    }  
+}
+
+.col-md-1 {
+    max-width: 2.3%!important;
+}
